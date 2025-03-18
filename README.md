@@ -1,7 +1,10 @@
 # datakit-march-april
 World Bank Group dataset
 
-The data can be found at this link:
+target users
+- this data would be great with a Tableau or PowerBI, due to the string length of column names
+
+The data is originally from this link:
 https://www.worldbank.org/en/publication/globalfindex
 
 The following changes were made to this dataset:
@@ -9,7 +12,9 @@ The following changes were made to this dataset:
 - cleaned %'s -> raw numbers
 - dtype changed to int
 
-the cleaned datafile (DatabankWide_Data_rawnums):
-- link: https://github.com/ua-chjb/datakit-march-april/blob/main/DatabankWide_Data_rawnums.csv
+the cleaned datafile (`DatabankWide_Data_rawnums.csv`):
+- github link: https://github.com/ua-chjb/datakit-march-april/blob/main/DatabankWide_Data_rawnums.csv
+- aws s3 public uri: s3://datakit-march-april-public/DatabankWide_Data_rawnums.csv
 - shape: (658, 1232)
 - source: as above
+
