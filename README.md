@@ -14,7 +14,6 @@ The following changes were made to this dataset:
 
 the cleaned datafile (`DatabankWide_Data_rawnums.csv`):
 - github link: https://github.com/ua-chjb/datakit-march-april/blob/main/DatabankWide_Data_rawnums.csv
-- aws s3 public uri: s3://datakit-march-april-public/DatabankWide_Data_rawnums.csv
 - shape: (658, 1232)
 - source: as above
 
